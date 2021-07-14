@@ -1,37 +1,34 @@
 # DoS-Protection
-Script for protect your system from dos-attack on 7 layer
+## Script for protect your system from dos-attack on 7 layer
 
- Original Author                        
+## Original Author                        
 
- Original Author: Zaf zaf@vsnl.com (Copyright (C) 2005)  
+### Original Author: Zaf zaf@vsnl.com (Copyright (C) 2005)  
 							 
- Jefferson González jgmdev@gmail.com                     
+### Jefferson González jgmdev@gmail.com                     
                                                          
- Marc S. Brooks devel@mbrooks.info                       
+### Marc S. Brooks devel@mbrooks.info                       
 
-Install
+## Install
 
-Ubuntu/Debian
-  $sudo apt-get install net-tools dsniff grepcidr -y
+### Ubuntu/Debian
+ #### $sudo apt-get install net-tools dsniff grepcidr -y
 
- $git clone https://github.com/zakumini/DoS-Protection.git
+#### $git clone https://github.com/zakumini/DoS-Protection.git
 
- $cd DoS-Protection
+#### $cd DoS-Protection
 
- $chmod 700  install.sh uninstall.sh
+#### $chmod 700  install.sh uninstall.sh
 
- $sudo ./install
+#### $sudo ./install
 
- $nano config/dos.conf
+#### $nano config/dos.conf
 
- Add "URL your website or server" and "Your LINE TOKEN" in below file (site="" ACCESS_TOKEN="") And save dos.conf file
- ##### Start DoS-Protection
- #### Start DoS-Protection
+ ### Add "URL your website or server" and "Your LINE TOKEN" in below file (site="" ACCESS_TOKEN="") And save dos.conf file
  ### Start DoS-Protection
- ## Start DoS-Protection
- # Start DoS-Protection
+
  ###### Start DoS-Protection
- $sudo dos -d
+#### $sudo dos -d
  ##How to use
    $ dos -h
   DoS-Protection version 1.0
