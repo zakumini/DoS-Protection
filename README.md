@@ -24,10 +24,10 @@ Ubuntu/Debian
 
  $nano config/dos.conf
 
- #Add "URL your website or server" and "Your LINE TOKEN" in below file (site="" ACCESS_TOKEN="") And save dos.conf file
- # Start DoS-Protection
-   $sudo dos -d
- How to use
+ Add "URL your website or server" and "Your LINE TOKEN" in below file (site="" ACCESS_TOKEN="") And save dos.conf file
+ ## Start DoS-Protection
+   ###$sudo dos -d
+ ##How to use
    $ dos -h
   DoS-Protection version 1.0
   Usage: dos [OPTIONS] [N]
