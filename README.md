@@ -9,9 +9,8 @@
                                                          
  ##Marc S. Brooks devel@mbrooks.info                       
 
-
-##Install
-Ubuntu/Debian
+Install
+##Ubuntu/Debian
 ###[1] $sudo apt-get install net-tools dsniff grepcidr -y
 ###[2] $git clone https://github.com/zakumini/DoS-Protection.git
 ###[3] $cd DoS-Protection
