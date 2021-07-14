@@ -1,7 +1,7 @@
 # DoS-Protection
 Script for protect your system from dos-attack on 7 layer
 
-             Original Author                        
+ Original Author                        
 
  Original Author: Zaf zaf@vsnl.com (Copyright (C) 2005)  
 							 
@@ -31,21 +31,21 @@ Ubuntu/Debian
  Start DoS-Protection
    $sudo dos -d
  How to use
-###    $ dos -h
-###   DoS-Protection version 1.0
-###  Usage: dos [OPTIONS] [N]
-###   N : number of tcp/udp connections (default 50)
-###   OPTIONS:
-###   -h      | --help: Show this help screen
-###   -i      | --ignore-list: List whitelisted ip addresses
-###  -b      | --bans-list: List currently banned ip addresses.
-###  -v      | --view: Display active connections to the server
-###   -u      | --unban: Unbans a given ip address.
-###   -d      | --start: Initialize a daemon to monitor connections
-###   -s      | --stop: Stop the daemon
-###   -t      | --status: Show status of daemon and pid if currently running
-###   -k      | --kill: Block all ip addresses making more than N connections
+   $ dos -h
+  DoS-Protection version 1.0
+  Usage: dos [OPTIONS] [N]
+  N : number of tcp/udp connections (default 50)
+  OPTIONS:
+  -h      | --help: Show this help screen
+  -i      | --ignore-list: List whitelisted ip addresses
+  -b      | --bans-list: List currently banned ip addresses.
+  -v      | --view: Display active connections to the server
+  -u      | --unban: Unbans a given ip address.
+  -d      | --start: Initialize a daemon to monitor connections
+  -s      | --stop: Stop the daemon
+  -t      | --status: Show status of daemon and pid if currently running
+  -k      | --kill: Block all ip addresses making more than N connections
 
-##Uninstall
-###[9] sudo ./uninstall.sh
+Uninstall
+$sudo ./uninstall.sh
 
