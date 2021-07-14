@@ -1,0 +1,12 @@
+/*dependencies      apt-get             
+nslookup            dnsutils            
+ifconfig            net-tools           
+iptables|ip6tables  iptables-persistent 
+tcpkill             dsniff              
+timeout             coreutils           
+grep                grep                
+awk                 awk                 
+sed                 sed                 
+grepcidr            grepcidr            
+ss|tc               iproute2            
+iftop               iftop              

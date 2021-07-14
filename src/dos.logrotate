@@ -1,0 +1,8 @@
+/var/log/dos.log {
+    rotate 4
+    weekly
+    notifemty
+    missingok
+    compress
+    minsize 1048576
+}

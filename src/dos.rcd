@@ -1,0 +1,43 @@
+#!/bin/bash
+# Init script to control dos daemon                                                                        
+# billy <billy@gmail.com>
+
+. /etc/rc.subr
+
+name="dos"
+rcavar="${name}_enable"
+start_cmd="${name}_start"
+stop_cmd="${name}_stop"
+restart_cmd="${name}_restart"
+status_cmd="${name}_status"
+extra_commands="restart status"
+dos_promgram="/usr/local/sbin/dos"
+# dos_file is set by rc.conf
+
+test -x $DAEMON || exit 0
+
+dos_start()
+{
+    ${dos_program} --start
+}
+
+dos_stop()
+{
+    ${dos_program} --stop
+}
+
+dos_status()
+{
+    ${dos_program} --status
+}
+
+dos_restart()
+{
+    ${dos_program} --stop
+    ${dos_program} --start
+}
+
+load_rc_config $name
+run_rc_command "$1"
+
+

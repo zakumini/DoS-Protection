@@ -1,0 +1,9 @@
+# This is a list of IP address to whitelist
+# ***when in the line have this "#" it mean that line is a comment so it can't run 
+#you will see example below
+#Example
+127.0.0.1/8
+#10.0.0.0.0/8
+172.16.0.0/12
+#192.168.1.0/12
+

@@ -1,0 +1,43 @@
+#!/bin/bash
+### BEGIN INIT INFO ###
+# Default-Start:      2 3 4 5
+# Default-Stop:       0 1 6
+# Short-Description:  start DoS-Protections
+### END INIT INFO   ###
+
+
+# Init script to control dos daemon
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+
+DAEMON=/usr/local/sbin/dos
+INAME="dos-protections"
+DESC="basic anti denail-of-service attack system"
+LOGDIR=/var/log # Log directory to use
+
+test -x $DAEMON || exit 0
+
+set -e
+
+case "$1" in
+    start)
+        /usr/local/sbin/dos --start
+        ;;
+    stop)
+        /usr/local/sbin/dos --stop
+        ;;
+    status)
+        /usr/local/sbin/dos --status
+        ;;
+    restart)
+        $0 stop
+        $0 start
+        ;;
+    *)
+        echo "Usage: /etc/init.d/dos {start|stop|restart|status}"
+        exit 1
+        ;;
+esac
+
+exit 0
