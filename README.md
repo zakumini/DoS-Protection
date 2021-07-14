@@ -1,16 +1,17 @@
 # DoS-Protection
-##Script for protect your system from dos-attack on 7 layer
+Script for protect your system from dos-attack on 7 layer
 
-             #Original Author                        
+             Original Author                        
 
- ##Original Author: Zaf zaf@vsnl.com (Copyright (C) 2005)  
+ Original Author: Zaf zaf@vsnl.com (Copyright (C) 2005)  
 							 
- ##Jefferson González jgmdev@gmail.com                     
+ Jefferson González jgmdev@gmail.com                     
                                                          
- ##Marc S. Brooks devel@mbrooks.info                       
+ Marc S. Brooks devel@mbrooks.info                       
 
 Install
-##Ubuntu/Debian
+
+Ubuntu/Debian
 ###[1] $sudo apt-get install net-tools dsniff grepcidr -y
 ###[2] $git clone https://github.com/zakumini/DoS-Protection.git
 ###[3] $cd DoS-Protection
