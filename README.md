@@ -12,7 +12,7 @@
 #### $cd DoS-Protection
 #### $chmod 700  install.sh uninstall.sh
 #### $sudo ./install
-#### $nano config/dos.conf
+#### $sudo nano /etc/dos/config/dos.conf
  ### Add "URL your website or server" and "Your LINE TOKEN" in below file (site="" ACCESS_TOKEN="") And save dos.conf file
  ### Start DoS-Protection
 #### $sudo dos -d
